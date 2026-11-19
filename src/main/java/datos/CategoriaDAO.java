@@ -18,6 +18,9 @@ import javax.swing.JOptionPane;
  *
  * @author JcarlosAd7
  */
+public class CategoriaDAO implements CrudSimpleInterface<Categoria> {
+    private final Conexion CON; // Conexion con la base de datos de com Miguel Marvic
+    private PreparedStatement ps;//Esta libreria prepara el estatuto para sql, ivan azamar 
 public class CategoriaDAO implements CrudSimpleInterface<Categoria> {          // holaaaaaaaaaaaaaaaaaaa
     private final Conexion CON;
     private PreparedStatement ps;
