@@ -7,7 +7,7 @@ package datos;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.SQLException;//hola inge
 import database.Conexion;
 import datos.interfaces.CrudSimpleInterface;
 import entidades.Categoria;
