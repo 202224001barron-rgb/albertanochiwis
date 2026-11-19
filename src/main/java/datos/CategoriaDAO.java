@@ -7,7 +7,7 @@ package datos;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-import java.sql.SQLException;
+import java.sql.SQLException;//hola inge
 import database.Conexion;
 import datos.interfaces.CrudSimpleInterface;
 import entidades.Categoria;
@@ -21,6 +21,9 @@ import javax.swing.JOptionPane;
 public class CategoriaDAO implements CrudSimpleInterface<Categoria> {
     private final Conexion CON; // Conexion con la base de datos de com Miguel Marvic
     private PreparedStatement ps;//Esta libreria prepara el estatuto para sql, ivan azamar 
+public class CategoriaDAO implements CrudSimpleInterface<Categoria> {          // holaaaaaaaaaaaaaaaaaaa
+    private final Conexion CON;
+    private PreparedStatement ps;
     private ResultSet rs;
     private boolean resp;
     
