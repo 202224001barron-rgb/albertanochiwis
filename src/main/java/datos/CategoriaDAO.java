@@ -18,6 +18,7 @@ import javax.swing.JOptionPane;
  *
  * @author JcarlosAd7
  */
+// Sanchez Barrios Jesus no trajo su lap, soy yo profe Jesus, pero si hice la actividad
 public class CategoriaDAO implements CrudSimpleInterface<Categoria> {
     private final Conexion CON;
     private PreparedStatement ps;//Esta libreria prepara el estatuto para sql, ivan azamar 
